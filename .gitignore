@@ -1,3 +1,8 @@
+# NodeRED specifics
+data
+*.backup
+package-lock.json
+
 # Logs
 logs
 *.log
