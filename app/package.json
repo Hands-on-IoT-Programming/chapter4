@@ -6,9 +6,11 @@
   "main": "node_modules/node-red/red/red.js",
   "scripts": {
     "start": "node node_modules/node-red/red.js --settings=./settings.js",
+    "custom": "node node_modules/node-red/red.js --settings=./settings.js --port ${PORT:-2880} ../flows/${FLOW:-flow2.json}",
     "flow0": "node node_modules/node-red/red.js --settings=./settings.js flows/flow0.json",
     "flow1": "node node_modules/node-red/red.js --settings=./settings.js flows/flow1.json",
-    "flow2": "node node_modules/node-red/red.js --settings=./settings.js flows/flow2.json"
+    "flow2": "node node_modules/node-red/red.js --settings=./settings.js flows/flow2.json",
+    "flow3": "node node_modules/node-red/red.js --settings=./settings.js flows/flow3.json"
   },
   "dependencies": {
     "node-red": "~1.0.4",
