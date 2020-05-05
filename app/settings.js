@@ -180,13 +180,13 @@ module.exports = {
         /*page: {
             title: "Node-RED",
             favicon: "assets/favicon.ico"
-        },
+        },*/
         header: {
-            title: "NodeRED Workspace",
-            image: "assets/logo.png", // or null to remove image
-            url: "http://therobotacademy.com"
+            title: "Hands on IoT Programming",
+        //    image: "assets/logo.png", // or null to remove image
+            url: "https://github.com/Hands-on-IoT-Programming"
         },
-        deployButton: {
+        /*deployButton: {
             type: "simple",
             label: "Deploy",
             icon: "assets/favicon.ico"
