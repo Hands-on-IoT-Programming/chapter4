@@ -182,7 +182,7 @@ module.exports = {
             favicon: "assets/favicon.ico"
         },*/
         header: {
-            title: "Hands on IoT Programming",
+            title: `Hands on IoT Programming - ${process.env.FLOW}`,
         //    image: "assets/logo.png", // or null to remove image
             url: "https://github.com/Hands-on-IoT-Programming"
         },
