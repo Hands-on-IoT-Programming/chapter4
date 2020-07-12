@@ -198,7 +198,7 @@ module.exports = {
             redirect: "http://therobotacademy.com"
         },*/
         projects: {
-            enabled: true // Enable the projects feature https://nodered.org/docs/user-guide/projects/
+            enabled: false // Enable the projects feature https://nodered.org/docs/user-guide/projects/
         } 
     },
     // Configure the logging output
