@@ -13,6 +13,6 @@
     "node-red-admin": "~0.1.5",
     "node-red-contrib-device-stats": "~1.1.2",
     "node-red-contrib-moment": "^3.0.3",
-    "node-red-dashboard": "~2.19.4"
+    "node-red-dashboard": "~2.26.2"
   }
 }
