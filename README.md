@@ -1,5 +1,5 @@
-# chapter5
-Code samples for Chapter 5 Data processing with NodeRED
+# chapter4
+Code samples for Chapter 4 Data processing with NodeRED
 
 ## Scripts
 - Launch NodeRED with a blank workspace:
