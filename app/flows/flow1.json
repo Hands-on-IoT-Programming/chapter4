@@ -2,7 +2,14 @@
     {
         "id": "506dbb20.3e7b24",
         "type": "tab",
-        "label": "your flow",
+        "label": "[Flow 1] Buffer",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1ddf6cac.2d39ab",
+        "type": "tab",
+        "label": "[Flow 2] Statistics",
         "disabled": false,
         "info": ""
     },
@@ -10,6 +17,13 @@
         "id": "f00a487a.95faf8",
         "type": "tab",
         "label": "Basic statistics",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3648cba8.f7fbfc",
+        "type": "tab",
+        "label": "Flow 3",
         "disabled": false,
         "info": ""
     },
@@ -391,9 +405,9 @@
         "id": "bde65654.82a218",
         "type": "comment",
         "z": "506dbb20.3e7b24",
-        "name": "Build your own flow in this tab following the steps provided in the exercise.Tab Basic statistics contains the full final flow.",
+        "name": "Reproduce here the part of the BASIC STATISTICS tab regarding the Buffer",
         "info": "",
-        "x": 460,
+        "x": 360,
         "y": 80,
         "wires": []
     },
@@ -616,5 +630,65 @@
                 "b58183fa.34444"
             ]
         ]
+    },
+    {
+        "id": "fd242f11.b48128",
+        "type": "comment",
+        "z": "1ddf6cac.2d39ab",
+        "name": "Reproduce here the part of the BASIC STATISTICS tab regarding mean and standard deviation",
+        "info": "",
+        "x": 440,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "defa0434.4bdb9",
+        "type": "comment",
+        "z": "3648cba8.f7fbfc",
+        "name": "Extract here the data acquisition part of BASIC STATISTICS  tab",
+        "info": "",
+        "x": 550,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "52ce1b3f.65475c",
+        "type": "comment",
+        "z": "3648cba8.f7fbfc",
+        "name": "Sense HAT Sim",
+        "info": "",
+        "x": 460,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6663ac84.f5babc",
+        "type": "comment",
+        "z": "3648cba8.f7fbfc",
+        "name": "throttle",
+        "info": "",
+        "x": 430,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1ad36059.b516c8",
+        "type": "comment",
+        "z": "3648cba8.f7fbfc",
+        "name": "temperature",
+        "info": "",
+        "x": 450,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fc33462d.730c48",
+        "type": "comment",
+        "z": "3648cba8.f7fbfc",
+        "name": "And modify the BASIC STATISTICS to receive the data from this flow",
+        "info": "",
+        "x": 560,
+        "y": 300,
+        "wires": []
     }
 ]
