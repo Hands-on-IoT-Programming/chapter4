@@ -10,14 +10,15 @@
     "flow2": "node node_modules/node-red/red.js --settings=./settings.js flows/flow2.json"
   },
   "dependencies": {
+    "json-db-node-red": "~0.5.3",
     "node-red": "~1.0.4",
     "node-red-admin": "~0.1.5",
+    "node-red-contrib-buffer-array": "~1.1.0",
+    "node-red-contrib-interval-length": "0.0.6",
+    "node-red-contrib-statistics": "~2.2.2",
     "node-red-contrib-throttle": "^0.1.6",
     "node-red-dashboard": "~2.19.4",
     "node-red-node-pi-sense-hat-simulator": "0.0.1",
-    "node-red-node-pusher": "^0.1.0",
-    "json-db-node-red": "~0.5.3",
-    "node-red-contrib-buffer-array": "~1.1.0",
-    "node-red-contrib-statistics": "~2.2.2"
+    "node-red-node-pusher": "^0.1.0"
   }
 }
