@@ -5,7 +5,7 @@
   "private": true,
   "main": "node_modules/node-red/red/red.js",
   "scripts": {
-    "flow0": "node node_modules/node-red/red.js --settings=./settings.js flows/flow0.json",
+    "data_retrieval": "node node_modules/node-red/red.js --settings=./settings.js flows/data_retrieval.json",
     "flow1": "node node_modules/node-red/red.js --settings=./settings.js flows/flow1.json",
     "flow2": "node node_modules/node-red/red.js --settings=./settings.js flows/flow2.json"
   },
