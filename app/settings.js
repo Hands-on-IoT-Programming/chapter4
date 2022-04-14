@@ -183,7 +183,7 @@ module.exports = {
             favicon: "assets/favicon.ico"
         },*/
         header: {
-            title: `Hands on IoT Programming - ${process.env.FLOW}`,
+            title: 'Hands on IoT Programming - Retrieving data from Sense Hat',
         //    image: "assets/logo.png", // or null to remove image
             url: "https://github.com/Hands-on-IoT-Programming"
         },
