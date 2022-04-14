@@ -6,6 +6,7 @@
   "main": "node_modules/node-red/red/red.js",
   "scripts": {
     "data_retrieval": "node node_modules/node-red/red.js --settings=./settings.js flows/data_retrieval.json",
+    "dashboard": "node node_modules/node-red/red.js --settings=./settings.js flows/data_retrieval-solution1_dashboard.json",
     "flow1": "node node_modules/node-red/red.js --settings=./settings.js flows/flow1.json",
     "flow2": "node node_modules/node-red/red.js --settings=./settings.js flows/flow2.json"
   },
